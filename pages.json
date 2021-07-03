@@ -1,0 +1,93 @@
+{
+	"pages": [{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/live/live",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "游戏直播",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/hero/hero",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "英雄",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"opacity": 0,
+		"blurEffect":"extralight",
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "list": [{
+	        "pagePath": "pages/home/home",
+	        "iconPath": "static/tabbar/home.png",
+	        "selectedIconPath": "./static/tabbar/home1.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/category/category",
+	        "iconPath": "static/tabbar/category.png",
+	        "selectedIconPath": "static/tabbar/category1.png",
+	        "text": "分类"
+	    },
+		{
+		    "pagePath": "pages/live/live",
+		    "iconPath": "static/tabbar/live.png",
+		    "selectedIconPath": "static/tabbar/live1.png",
+		    "text": "游戏直播"
+		},
+		{
+		    "pagePath": "pages/hero/hero",
+		    "iconPath": "static/tabbar/hero.png",
+		    "selectedIconPath": "static/tabbar/hero1.png",
+		    "text": "英雄"
+		},
+		{
+		    "pagePath": "pages/user/user",
+		    "iconPath": "static/tabbar/user.png",
+		    "selectedIconPath": "static/tabbar/user1.png",
+		    "text": "我的"
+		}]
+	}
+}
